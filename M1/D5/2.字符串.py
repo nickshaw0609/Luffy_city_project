@@ -53,7 +53,8 @@ print(v2) # ['武沛齐,root', 'wupeiqi@qq.com']
 # v1 = data.zfill(10)
 # print(v1) # 000000alex
 
-str
+str = "生活不是电影，生活比电影苦"
+print(str[-1:1:-2])
 
 
 
