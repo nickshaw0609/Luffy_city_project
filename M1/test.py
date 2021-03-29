@@ -51,11 +51,11 @@
 #         li.remove(i)
 # print(li)
 
-# li = ['周','周星星','麻花藤','周扒皮']
-# print(list(filter(lambda x:x[0]!='周',li)))
+li = ['周', '周星星', '麻花藤', '周扒皮']
+print(list(filter(lambda x: x[0] != '周', li)))
+
 #
-#
-dic = {'k1': "v1", "k2": "v2", "k3": [11,22,33]}
+dic = {'k1': "v1", "k2": "v2", "k3": [11, 22, 33]}
 dic.pop("k1")
 print(dic)
 
